@@ -76,3 +76,34 @@ button.btn-outline-darkblue:hover {
   background-color: darkblue;
   color: #fff;
 }
+
+tr > td.family_alcalino {
+  background-color: #cff1ff;
+}
+tr > td.family_metaloides {
+  background-color: #faffcf;
+}
+tr > td.family_actinidos {
+  background-color: #ffe4cf;
+}
+tr > td.family_alcalinoterreo {
+  background-color: #ffd6cf;
+}
+tr > td.family_noreactive {
+  background-color: #cfd3ff;
+}
+tr > td.family_unknown {
+  background-color: #b0b0b0;
+}
+tr > td.family_transition {
+  background-color: #e2cfff;
+}
+tr > td.family_noble {
+  background-color: #ffcfea;
+}
+tr > td.family_posttransition {
+  background-color: #cfffe1;
+}
+tr > td.family_lanthanides {
+  background-color: #7696d6;
+}
