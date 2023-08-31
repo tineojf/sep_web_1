@@ -2,3 +2,31 @@ body > h1 {
   margin: 3vh 0;
   text-align: center;
 }
+
+table > tbody > tr > td {
+  /* display: flex; */
+  /* flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: stretch; */
+
+  width: 100px;
+  margin: 0;
+}
+
+table > tbody > tr > td > p:first-child {
+  font-size: 0.8rem;
+  padding: 0;
+  margin: 0;
+}
+table > tbody > tr > td > p:nth-child(2) {
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+table > tbody > tr > td > p:last-child {
+  font-size: 0.8rem;
+  padding: 0;
+  margin: 0;
+}
