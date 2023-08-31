@@ -2,9 +2,25 @@ body > h1 {
   margin: 3vh 0;
   text-align: center;
 }
+
+body > div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  width: 65%;
+  margin: 0 auto;
+}
+body > div > button {
+  margin: 10px;
+}
+
 table.table {
   width: 100%;
-  overflow:visible;
+  overflow: visible;
 }
 
 table > tbody > tr > td {
@@ -26,4 +42,37 @@ table > tbody > tr > td > p:last-child {
   font-size: 0.8rem;
   padding: 0;
   margin: 0;
+}
+
+button.btn-outline-orange {
+  border-color: orangered;
+  color: orangered;
+}
+button.btn-outline-orange:hover {
+  background-color: orangered;
+  color: #fff;
+}
+button.btn-outline-blue {
+  border-color: blue;
+  color: blue;
+}
+button.btn-outline-blue:hover {
+  background-color: blue;
+  color: #fff;
+}
+button.btn-outline-purple {
+  border-color: purple;
+  color: purple;
+}
+button.btn-outline-purple:hover {
+  background-color: purple;
+  color: #fff;
+}
+button.btn-outline-darkblue {
+  border-color: darkblue;
+  color: darkblue;
+}
+button.btn-outline-darkblue:hover {
+  background-color: darkblue;
+  color: #fff;
 }
