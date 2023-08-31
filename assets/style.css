@@ -107,3 +107,14 @@ tr > td.family_posttransition {
 tr > td.family_lanthanides {
   background-color: #7696d6;
 }
+tr > td:hover {
+  border: 1px solid #000;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #000;
+  cursor: pointer;
+}
+tr > td.td_disable:hover {
+  border: none;
+  box-shadow: none;
+  cursor: default;
+}
