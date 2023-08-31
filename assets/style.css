@@ -21,6 +21,7 @@ body > div > button {
 table.table {
   width: 100%;
   overflow: visible;
+  font-weight: bold;
 }
 
 table > tbody > tr > td {
@@ -79,33 +80,43 @@ button.btn-outline-darkblue:hover {
 
 tr > td.family_alcalino {
   background-color: #cff1ff;
+  color: #1299a3;
 }
 tr > td.family_metaloides {
   background-color: #faffcf;
+  color: #a3a112;
 }
 tr > td.family_actinidos {
   background-color: #ffe4cf;
+  color: #a36e12;
 }
 tr > td.family_alcalinoterreo {
   background-color: #ffd6cf;
+  color: #a32a12;
 }
 tr > td.family_noreactive {
   background-color: #cfd3ff;
+  color: #1212a3;
 }
 tr > td.family_unknown {
   background-color: #b0b0b0;
 }
 tr > td.family_transition {
   background-color: #e2cfff;
+  color: #6712a3;
 }
 tr > td.family_noble {
   background-color: #ffcfea;
+  color: #a31267;
+
 }
 tr > td.family_posttransition {
   background-color: #cfffe1;
+  color: #12a325;
 }
 tr > td.family_lanthanides {
-  background-color: #7696d6;
+  background-color: #9bb0da;
+  color: #1258a3;
 }
 tr > td:hover {
   border: 1px solid #000;
