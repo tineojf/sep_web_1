@@ -21,7 +21,8 @@ body > div > button {
 table.table {
   width: 100%;
   overflow: visible;
-  font-weight: bold;
+  font-family: "Varela Round", sans-serif;
+  font-size: 2rem;
 }
 
 table > tbody > tr > td {
@@ -108,7 +109,6 @@ tr > td.family_transition {
 tr > td.family_noble {
   background-color: #ffcfea;
   color: #a31267;
-
 }
 tr > td.family_posttransition {
   background-color: #cfffe1;
@@ -118,10 +118,12 @@ tr > td.family_lanthanides {
   background-color: #9bb0da;
   color: #1258a3;
 }
+
 tr > td:hover {
   border: 1px solid #000;
   border-radius: 5px;
   box-shadow: 0 0 10px #000;
+  font-weight: bold;
   cursor: pointer;
 }
 tr > td.td_disable:hover {
